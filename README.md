@@ -288,7 +288,7 @@ Replace the following variables before you Run Node:
 ## 10. Sync Node
 After entering the command, your node starts running, It takes a few minutes for your node to get synced.
 
-* Check the latest synced block number of your sequencer:
+* Check the latest synced block number of your sequencer by oppening it into the new screen:
 ```
 curl -s -X POST -H 'Content-Type: application/json' \
 -d '{"jsonrpc":"2.0","method":"node_getL2Tips","params":[],"id":67}' \
@@ -297,3 +297,4 @@ http://localhost:8080 | jq -r ".result.proven.number"
 * Check the latest block number of Aztec network: https://aztecscan.xyz/
 
 ---
+Thats all, now to go to discord- operators channel and provide the block no., wallet address and proof that you generated recently! 
