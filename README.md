@@ -296,6 +296,6 @@ http://localhost:8080 | jq -r ".result.proven.number"
 ```
 * Check the latest block number of Aztec network: https://aztecscan.xyz/
 
----bash
+```bash
 Thats all, now to go to discord- operators channel and provide the block no., wallet address and proof that you generated recently! 
 ---
