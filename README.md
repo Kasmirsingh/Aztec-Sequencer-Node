@@ -298,3 +298,4 @@ http://localhost:8080 | jq -r ".result.proven.number"
 
 ---
 Thats all, now to go to discord- operators channel and provide the block no., wallet address and proof that you generated recently! 
+---
